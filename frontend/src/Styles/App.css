@@ -1,0 +1,49 @@
+@media all and (min-width: 480px) {
+    .body {
+        background: #282c34;
+    }
+
+    .App {
+        text-align: center;
+
+    }
+
+    .Container {
+        margin-top: 20%;
+
+    }
+
+    .dataContainer {
+        margin-top: 1% !important;
+    }
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input {
+    color: lightgray !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    background-color: transparent;
+    opacity: 0.6;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-text-fill-color: lightgray;
+    caret-color: lightgray;
+}
+
+a, a:hover {
+    color: lightgray;
+}
+
+

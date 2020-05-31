@@ -1,0 +1,80 @@
+.resultsCard {
+    background-color: transparent !important;
+    margin: 3% auto !important;
+    border: 0 !important;
+}
+
+.resultsTable {
+    background-color: transparent !important;
+}
+
+.resultsTable th {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid gray !important;
+    border-top: 2px solid gray !important
+}
+
+.resultsTable td {
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+}
+.resultsTable th {
+    padding-bottom: 1.45% !important;
+}
+.resultsTable th:first-child {
+    border-left: 2px solid gray !important;
+    border-top: 2px solid gray !important;
+    padding-bottom: 1.45% !important;
+}
+
+.resultsTable th:last-child {
+    border-right: 2px solid gray !important;
+    padding-bottom: 1.45% !important;
+}
+
+.resultsTable td:first-child {
+    border-left: 2px solid gray !important;
+}
+
+.resultsTable td:last-child {
+    border-right: 2px solid gray !important;
+}
+
+.resultsTable tr:last-child {
+    border-bottom: 2px solid gray !important;
+}
+
+.spotifyIcon {
+    margin-right: 1%;
+    margin-left: 35%;
+    width: 20px;
+}
+
+.spotifyFollowers{
+    text-align: left;
+}
+
+.artistNameInput {
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+input[name='artistName']:focus
+{
+    background-color: lightgray !important;
+    color: black !important;
+}
+
+.artistNameDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.tableItemToLeft {
+    text-align: left !important;
+
+}
+.artistNameChangeToast{
+    background-color: lightgreen !important;
+}

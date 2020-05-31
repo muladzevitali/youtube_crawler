@@ -1,0 +1,43 @@
+version: '3.3'
+services:
+  flask:
+    build: ./application
+    container_name: youtube_crawler_backend
+    command: python main.py reset
+    volumes:
+      - ./application/:/usr/src/application/
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    depends_on:
+      - postgres
+    environment:
+      - DATABASE=postgres
+
+  frontend:
+    build: ./frontend
+    container_name: youtube_crawler_frontend
+    command: npm run start .env.development
+    tty: true
+    expose:
+      - 3006
+    ports:
+      - 3006:3006
+
+  postgres:
+    container_name: youtube_crawler_database
+    image: postgres:12-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=muladzevitali
+      - POSTGRES_PASSWORD=chanchura1
+      - POSTGRES_DB=youtube_scraper
+    expose:
+      - 5432
+    ports:
+      - 5432:5432
+
+volumes:
+  postgres_data:

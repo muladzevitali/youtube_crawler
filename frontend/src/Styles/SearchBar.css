@@ -1,0 +1,65 @@
+.queryWord {
+    position: relative;
+    background: transparent !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-color: lightgray !important;
+    height: auto !important;
+}
+
+.searchButton img {
+    width: 40px;
+    height: 40px;
+    border-bottom: 1px;
+}
+
+.searchButton {
+    border-bottom: 1px solid !important;
+    border-right: none !important;
+    border-color: gray !important;
+    border-bottom-left-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+.filterButton {
+    border: 1px solid !important;
+    border-left: none !important;
+    border-color: gray !important;
+    padding-top: inherit !important;
+    border-bottom-right-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+.filterButton img {
+    padding-top: 15%;
+    width: 26px;
+    height: 23px;
+}
+
+input[name="queryWord"] {
+    background-color: transparent;
+    opacity: 0.6;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.viewsCount {
+    position: relative;
+    background: transparent !important;
+    border-color: lightgray !important;
+}
+
+.searchFilterRow {
+    position: absolute;
+    transition: all .3s ease-in .3s;
+}
+
+.searchFilterRow h5 {
+    font-weight: 500 !important;
+    color: gray;
+    padding-top: 0.8% !important
+}

@@ -1,0 +1,9 @@
+flask
+flask-sqlalchemy
+psycopg2-binary
+requests
+scrapy
+spotipy
+werkzeug
+flask-cors
+gunicorn

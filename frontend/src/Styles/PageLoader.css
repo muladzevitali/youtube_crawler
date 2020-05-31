@@ -1,0 +1,13 @@
+.pageLoader {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    font-size: 100px;
+}
+
+.pageLoaderText {
+    color: gray;
+    font-size: 45px;
+}
